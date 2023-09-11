@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Rol de Usuario"
+            android:textColor="#D64B4B"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/editTextIdRolUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ID del Rol"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextNameRolUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre del Rol de Usuario"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonRegisterRolUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
+            android:backgroundTint="#4CAF50"
+            android:layout_margin="5dp"
+            android:text="Registrar" />
+
+        <Button
+            android:id="@+id/buttonConsultRolUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
+            android:backgroundTint="#F3C332"
+            android:layout_margin="5dp"
+            android:text="Consultar" />
+
+        <Button
+            android:id="@+id/buttonUpdateRolUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
+            android:backgroundTint="#0AA0E4"
+            android:layout_margin="5dp"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/buttonDeleteRolUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
+            android:backgroundTint="#E43333"
+            android:layout_margin="5dp"
+            android:text="Eliminar" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/buttonConsultAllRolUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_redondo"
+                android:backgroundTint="#5EAC38DF"
+                android:layout_margin="5dp"
+                android:text="Rol de Usuarios Registrados" />
+        </RadioGroup>
+
+    </LinearLayout>
+</RelativeLayout>
